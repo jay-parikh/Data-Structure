@@ -4,7 +4,7 @@
 3. Send changes to forked repo<br /> `git push endpoint_name branch_name `<br /> `e.g. git push origin master`
 
 #### Checkout in forked repo to different branch
-**`git checkout -b <branch> --track <remote>/<branch>`**<br /> `e.g. git checkout -b master --track upstream/master`
+`git checkout -b <branch> --track <remote>/<branch>`<br /> `e.g. git checkout -b master --track upstream/master`
 
 ##### Discard modified changes in git
 `git checkout <path-to-file>`<br />
