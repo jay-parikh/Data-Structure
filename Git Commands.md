@@ -1,6 +1,6 @@
 #### Keep Github Fork Repo upto date with Master
 1. Add Master Repo url to your forked one which will be added using<br /> `git remote add_endpoint_name repo_url`
-2. Get new updates from Master Repo<br /> `git pull add_endpoint_name branch_name`
+2. Get new updates from Master Repo<br /> `git pull add_endpoint_name branch_name `<br /> `e.g. git pull upstream master`
 3. Send changes to forked repo<br /> `git push endpoint_name branch_name `<br /> `e.g. git push origin master`
 
 #### Checkout in forked repo to different branch
