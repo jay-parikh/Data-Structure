@@ -27,3 +27,8 @@ First make sure that the tag exists locally by doing
 `git fetch --all --tags --prune`  
 Then check out the tag by running  
 `git checkout tags/<tag_name> -b <branch_name>`
+
+
+##### Git fetch remote branch   
+`git fetch upstream master:refs/remotes/upstream/master`   
+`git checkout -b master --track upstream/master`
