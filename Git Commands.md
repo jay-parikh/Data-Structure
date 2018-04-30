@@ -32,3 +32,6 @@ Then check out the tag by running
 ##### Git fetch remote branch   
 `git fetch upstream master:refs/remotes/upstream/master`   
 `git checkout -b master --track upstream/master`
+
+##### Git list all remote branch   
+`git branch -r`
